@@ -1,0 +1,14 @@
+/* Base Styles */
+@import "./base/base.css";
+@import "./base/font.css";
+@import 'animate.css';
+
+/* Sections */
+@import "./sections/navbar.css";
+@import "./sections/banner.css";
+
+
+@tailwind base; 
+@tailwind components;
+@tailwind utilities;
+

@@ -1,0 +1,9 @@
+.banner {
+    @apply bg-[url(../../images/class.jpg)] 
+     max-w-full h-80 mx-auto mt-3
+     bg-no-repeat    bg-cover
+     md:max-w-full  md:h-[550px]   md:bg-cover
+     lg:max-w-full  lg:h-[650px]   lg:bg-cover
+     xl:max-w-full  xl:h-[750px]   xl:bg-cover
+     2xl:max-w-full 2xl:h-[850px]  2xl:bg-cover;
+  }

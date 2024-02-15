@@ -1,0 +1,36 @@
+header .navbar {
+  @apply flex px-2 justify-between md:justify-between items-center;
+}
+header .navbar .logo img {
+  @apply w-16 h-16;
+}
+header .navbar ul {
+  @apply hidden gap-8 md:flex relative;
+}
+header .navbar ul li:hover {
+  @apply underline decoration-solid decoration-LineColor underline-offset-8 decoration-2 transition-all duration-300;
+}
+header .navbar ul li .sub_menu {
+  @apply absolute top-[24px] right-[102px] flex flex-col gap-2  bg-LineColor py-4 px-6 rounded-lg;
+}
+header .navbar ul li .sub_menu {
+  @apply opacity-0 scale-0 transition-all duration-300;
+}
+header .navbar ul li .sub_menu li {
+  @apply no-underline;
+}
+header .navbar ul li:hover .sub_menu {
+  @apply opacity-100 scale-100 transition-all duration-300;
+}
+header .navbar .btn {
+  @apply flex justify-center;
+}
+header .navbar .ham_button svg {
+  @apply flex md:hidden w-8 h-8 fill-LineColor stroke-LineColor;
+}
+header .navbar .button {
+  @apply bg-LineColor px-2 py-1 rounded-md text-BaseColor  transition-all duration-500;
+}
+header .navbar .button:hover {
+  @apply bg-BaseColor font-kalameh  text-LineColor text-base transition-all duration-500;
+}
